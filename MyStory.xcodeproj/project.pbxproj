@@ -13,6 +13,8 @@
 		CD20537929AC2F5700A5093D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD20537729AC2F5700A5093D /* Main.storyboard */; };
 		CD20537B29AC2F5800A5093D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD20537A29AC2F5800A5093D /* Assets.xcassets */; };
 		CD20537E29AC2F5800A5093D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD20537C29AC2F5800A5093D /* LaunchScreen.storyboard */; };
+		CD20538629AC383500A5093D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20538529AC383500A5093D /* DetailViewController.swift */; };
+		CD20538829AC3DB300A5093D /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20538729AC3DB300A5093D /* Information.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CD20537A29AC2F5800A5093D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD20537D29AC2F5800A5093D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD20537F29AC2F5800A5093D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD20538529AC383500A5093D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CD20538729AC3DB300A5093D /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				CD20537129AC2F5700A5093D /* AppDelegate.swift */,
 				CD20537329AC2F5700A5093D /* SceneDelegate.swift */,
 				CD20537529AC2F5700A5093D /* ViewController.swift */,
+				CD20538729AC3DB300A5093D /* Information.swift */,
 				CD20537729AC2F5700A5093D /* Main.storyboard */,
+				CD20538529AC383500A5093D /* DetailViewController.swift */,
 				CD20537A29AC2F5800A5093D /* Assets.xcassets */,
 				CD20537C29AC2F5800A5093D /* LaunchScreen.storyboard */,
 				CD20537F29AC2F5800A5093D /* Info.plist */,
@@ -141,6 +147,8 @@
 				CD20537629AC2F5700A5093D /* ViewController.swift in Sources */,
 				CD20537229AC2F5700A5093D /* AppDelegate.swift in Sources */,
 				CD20537429AC2F5700A5093D /* SceneDelegate.swift in Sources */,
+				CD20538829AC3DB300A5093D /* Information.swift in Sources */,
+				CD20538629AC383500A5093D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYNY4CYWCT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyStory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYNY4CYWCT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyStory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
